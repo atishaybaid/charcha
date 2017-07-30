@@ -1,11 +1,11 @@
 import React from 'react';
-/*import Header from './components/Header';*/
-
+import Header from '../components/Header';
+import Main from '../components/Main';
 
 
 const App = ()=>(
-   <h1>Charcha Header</h1>    
-        
+   <Header />
+    <Main />
     
     );
 
